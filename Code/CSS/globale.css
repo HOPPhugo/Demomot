@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Hando Soft Regular";
+    src: url("../Fonts/hando_soft/HandoSoftTrial-Regular.ttf") format("truetype");
+    unicode-range: U+0000-0022, U+0024-003F, U+0041-007F, U+00A0-00FF;
+}
+html {
+    background-color: 	#000814;
+    color: 	#0077b6;
+    font-family: "Hando Soft Regular", sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 0;
+    scrollbar-width: none;
+}
+a {
+    color: 	#3767eb;
+    text-decoration: none;
+}
+#title {
+    font-size: 5rem;
+    color: 	#0696e4;
+    margin-bottom: 1rem;
+}
+.CurrentPage{
+    border: 1px solid white;
+}
+.CurrentPage a{
+    color: white;
+}
+.Navbar {
+    display: flex;
+    gap: 1rem;
+    background-color: #2600ff2a;
+    padding: 0.5rem;
+    
+}
+.Navbar div {
+    height: fit-content;
+    padding: 0.5rem;
+    background-color: #0a5b8636;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.Navbar div:hover {
+    background-color: #082f44;
+    transition: 0.5s;
+}

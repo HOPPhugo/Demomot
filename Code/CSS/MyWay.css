@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Description {
+Display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.Navbar {
+    margin:0;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.Image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    margin-top: 1rem;
+    width: 15%;
+    border : rgba(0, 120, 184, 0);
+    border-radius: 100%;
+    transition: 0.75s;
+}
+img:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+    border: 2.5px solid #f1ee3f;
+    box-shadow: 0px 0px 50px #e1f722;
+    margin-top: 4rem;
+}

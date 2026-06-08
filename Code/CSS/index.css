@@ -1,0 +1,22 @@
+.Intro {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+.Intro h2 {
+    margin: 5px;
+    display: flex;
+    height: fit-content;
+}
+.Intro p {
+    margin: 0;
+    display: flex;
+    height: fit-content;
+    
+}
+section {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}

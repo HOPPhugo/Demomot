@@ -1,0 +1,53 @@
+h1 {
+    font-size: 2.5em;
+    
+}h2 {
+    font-size: 2em;
+    justify-self: center;
+}
+p {
+    justify-self: center;
+}
+.GamesSection {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    transition: 1s;
+    height: fit-contents;
+}
+.GamesSection article:hover {
+    transform: scale(1.5);
+    background-color: #16b6aebd;
+    color: #ffffff;
+    
+    transition: 1s;
+    z-index: 1;
+}
+.Csharp:hover {
+    margin-right: 3rem;
+}
+.HtmlCss:hover {
+    margin-left: 4rem;
+}
+.GamesSection article {
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    padding : 1rem;
+    padding-top: 0.1rem;
+    margin-bottom: 2rem;
+    height: fit-content;
+    transition: 1s;
+}
+.Csharp {
+    background-color: rgba(22, 135, 62, 0.486);
+    color: #86efac;
+}
+.HtmlCss {
+    background-color: rgba(180, 83, 9, 0.705);
+    color: #f0d292;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
