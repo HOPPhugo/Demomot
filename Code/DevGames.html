@@ -5,18 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="CSS/DevGames.css">
         <link rel="stylesheet" href="CSS/globale.css">
-        <title>Developped Games</title>
+        <title>Mastered langages</title>
     </head>
     <body>
-        <h1 id="title">My Developped Games</h1>
+        <h1 id="title">Mastered langages</h1>
        <section class="GamesSection">
-           <article class="Csharp">
-               <h2>C# Games</h1>
-                <p>Description of the C# game.</p>
+           <article  class="Csharp" onclick="CSharpClick()">
+               <h2>C# Games</h2>
+                <p id="numberC">10</p>
             </article>
-            <article class="HtmlCss">
-                <h2>HTML/CSS Games</h1>
-                <p>Description of the HTML/CSS game.</p>
+            <article class="HtmlCss" onclick="HtmlClick()">
+                <h2>HTML/CSS Sites</h2>
+                <p id="numberH">2</p>
+                
             </article>
                 
         </section>
@@ -28,9 +29,17 @@
                 <div class="">
                 <a href="/index.html">Accueil</a></div>
                 <div class="CurrentPage">
-                <a href="/DevGames.html">Developped Games</a></div>
+                <a href="/DevGames.html">Mastered langages</a></div>
                 <div class="">
                 <a href="/MyWay.html">My way</a></div>
         </section>
     </body>
 </html>
+<script>
+function CSharpClick() {
+    window.open("/CSharpGames.html", "_parent");
+}
+function HtmlClick() {
+    window.open("/HtmlSites.html", "_parent");
+}
+</script>
