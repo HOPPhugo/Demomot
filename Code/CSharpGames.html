@@ -9,7 +9,7 @@
     </head>
     <body>
         <h1 id="title">C# Games</h1>
-        <Section class="TryToEscape">
+        <Section class="GameSection">
             <h2>TryToEscape!</h2>
             <p>In this game, you have to escape from every stage/room, you have to find what you have to do, there is some enigme, speed, precision, knoledge and a lot more.</p>
             <p>If you have wrong somewhere or you just loose the stage/room, you have to restart from the start.</p>
@@ -40,12 +40,12 @@
             <img src="./Images/TryToEscape_Start.png" alt="Start of the game">
             <article>
             <p>It's the srart of the game, the "Spawn".</p>
-            <p>Here, you have to take the hammer and break the glass with it. <br>Then you read the paper and go talk to the PNJ, <br>he will asks you some questions and you have to answer right to it.</p>
+            <p id="Spoil">Here, you have to take the hammer and break the glass with it. <br>Then you read the paper and go talk to the PNJ, <br>he will asks you some questions and you have to answer right to it.</p>
             </article>
             <img src="./Images/TryToEscape_SecondStage.png" alt="The second stage of the game">
             <article>
             <p>This is the second stage, after success the start.</p>
-            <p>Here, you have to find all the hidded buttons <br>and press them in the right order : <br>
+            <p id="Spoil">Here, you have to find all the hidded buttons <br>and press them in the right order : <br>
             1. Tree <br>
             2. Boxes <br>
             3. Trashcan <br>
@@ -56,7 +56,7 @@
             <img src="./Images/TryToEscape_Piano.png" alt="The third stage of the game">
             <article>
                 <p>This is the third stage, you have to use de piano correctly.</p>
-                <p>The order of the piano keys are : From the left to the right.</p>
+                <p id="Spoil">The order of the piano keys are : From the left to the right.</p>
             </article>
             <img src="./Images/TryToEscape_Target.png" alt="The Fourth stage of the game">
             <article>
@@ -65,28 +65,83 @@
             <img src="./Images/TryTroEscape_NetherPortal.png" alt="The fifth stage of the game">
             <article>
                 <p>This is the fifth stage, you juste have to enter in the nether portal</p>
-                <p>Don't forget the tiny paper in the bottom-left corner 😉</p>
+                <p id="Spoil">Don't forget the tiny paper in the bottom-left corner 😉</p>
             </article>
             
             <img src="./Images/TryToEscape_ThirdStage.png" alt="The sixth stage of the game">
-            
+            <article>
+                <p>This is the sixth stage, you have to answer to a litle quiz (7 questions).</p>
+                <p id="Spoil">The answers are : </p>
+                <ul id="Spoil">
+                    <li>The fear of long words <Strong>(C)</Strong></li>
+                    <li>United States <strong>(Y)</strong></li>
+                    <li>Mercury <strong>(C)</strong></li>
+                    <li>The brain <strong>(N)</strong></li>
+                    <li>Lake Neuchâtel <strong>(N)</strong></li>
+                    <li>Paris <strong>(Y)</strong></li>
+                    <li>Anora by Sean Baker <strong>(C)</strong></li>
+                </ul>
+            </article>
             <img src="./Images/TryToEscape_FourthStage.png" alt="The seventh stage of the game">
+            <article>
+                <p>This is the seventh stage, you have to click the fastest you <br>can and when you will be at the max (250), <br>you will have to stay between 250-240 while 10 seconds.</p>
+            </article>
             <video src="./Videos/TryToEscape_Victory.mp4" loop autoplay></video>
-            <video src="./Videos/TryToEscape_GamePlay.mp4" controls loop autoplay></video>
+            <article>
+                <p>This is the victory screen, if you win my game without <br>looking at the spoil on this site or looking at the source code, honestly <strong>GG</strong>.</p>
+            </article>
+            <video  id="SpoilVid" src="./Videos/TryToEscape_GamePlay.mp4" controls></video>
+            <article>
+                <p>This is a gameplay with all the answers and all the looking.</p>
+            </article>
         </Section>
-        <section class="Navbar">
-            <div class="">
+        
+        <div id="Space"></div>
+
+        <section class="GameSection"><p>test</p>
+        
+        
+        
+        
+        </section>
+        
+        <div id="Space"></div>
+        
+        
+        
+        
+        
+        
+        <section class="NavbarC">
+            <div class="" onClick="Github()">
             <a href="https://github.com/HOPPhugo" target="_blank">My GitHub</a></div>
-            <div class="">
+            <div class="" onclick="EditedPhotos()">
             <a href="/EditPhotos.html">Edited Photos</a></div>
-            <div class="">
+            <div class="" onclick="Accueil()">
             <a href="/index.html">Accueil</a></div>
-            <div class="CurrentPage">
+            <div class="CurrentPage"  onclick="Dev()">
             <a href="/DevGames.html">Mastered langages</a>
             <p>C# Games</p>
             </div>            
-            <div class="">
+            <div class="" onclick="Way()">
             <a href="/MyWay.html">My way</a></div>
         </section>
     </body>
 </html>
+<script>
+    function Github() {
+        window.open("https://github.com/HOPPhugo", "_blank")
+    }
+    function EditedPhotos() {
+        window.open("/EditPhotos.html", "_parent")
+    }
+    function Accueil() {
+        window.open("/index.html", "_parent")
+    }
+    function Dev() {
+        window.open("/DevGames.html", "_parent")
+    }
+    function Way() {
+        window.open("/MyWay.html", "_parent")
+    }
+</script>

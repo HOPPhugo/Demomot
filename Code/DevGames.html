@@ -22,16 +22,16 @@
                 
         </section>
         <section class="Navbar">
-                <div class="">
+                <div class="" onclick="Github()">
                 <a href="https://github.com/HOPPhugo" target="_blank">My GitHub</a></div>
-                <div class="">
+                <div class="" onclick="EditedPhotos()">
                 <a href="/EditPhotos.html">Edited Photos</a></div>
-                <div class="">
+                <div class="" onclick="Accueil()">
                 <a href="/index.html">Accueil</a></div>
-                <div class="CurrentPage">
+                <div class="CurrentPage" onclick="Dev()">
                 <a href="/DevGames.html">Mastered langages</a></div>
                 <div class="">
-                <a href="/MyWay.html">My way</a></div>
+                <a href="/MyWay.html" onclick="Way()">My way</a></div>
         </section>
     </body>
 </html>
@@ -41,5 +41,20 @@ function CSharpClick() {
 }
 function HtmlClick() {
     window.open("/HtmlSites.html", "_parent");
+}
+function Github() {
+    window.open("https://github.com/HOPPhugo", "_blank")
+}
+function EditedPhotos() {
+    window.open("/EditPhotos.html", "_parent")
+}
+function Accueil() {
+    window.open("/index.html", "_parent")
+}
+function Dev() {
+    window.open("/DevGames.html", "_parent")
+}
+function Way() {
+    window.open("/MyWay.html", "_parent")
 }
 </script>

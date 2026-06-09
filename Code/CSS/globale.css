@@ -33,6 +33,7 @@ a {
     gap: 1rem;
     background-color: #2600ff2a;
     padding: 0.5rem;
+    border-radius: 30px;
     
 }
 .Navbar div {
@@ -41,8 +42,10 @@ a {
     background-color: #0a5b8636;
     border-radius: 10px;
     transition: 0.5s;
+    cursor: pointer;
 }
 .Navbar div:hover {
     background-color: #082f44;
     transition: 0.5s;
+    cursor: pointer;
 }

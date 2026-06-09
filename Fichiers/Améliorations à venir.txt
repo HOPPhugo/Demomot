@@ -1,0 +1,3 @@
+le survole des cartes mets le curseur "grab"
+dans la page des jeux, utiliser un "scroll-bahavior" faire une table des matière sur la gauche de l'écran
+RESPONSIVE

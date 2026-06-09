@@ -16,15 +16,15 @@
             <p>Between these two periods, I had the opportunity to do a lot of various stages. Like in <a href="https://www.zoo-servion.ch/" target="_blank">Zoo</a>, <a href="https://www.axonlab.com/ttps://www.it-support.ch/" target="_blank">It support</a>, <a href="https://www.etml.ch/" target="_blank">Electronic</a>, <a href="https://www.cpnv.ch/" target="_blank">Mediamatician</a> and much more.</p>
         </section>
         <section class="Navbar">
-                <div class="">
+                <div class="" onclick="Github()">
                 <a href="https://github.com/HOPPhugo" target="_blank">My GitHub</a></div>
-                <div class="">
+                <div class="" onclick="EditedPhotos()">
                 <a href="/EditPhotos.html">Edited Photos</a></div>
-                <div class="">
+                <div class="" onclick="Accueil()">
                 <a href="/index.html">Accueil</a></div>
-                <div class="">
+                <div class="" onclick="Dev()">
                 <a href="/DevGames.html">Mastered langages</a></div>
-                <div class="CurrentPage">
+                <div class="CurrentPage" onclick="Way()">
                 <a href="/MyWay.html">My way</a></div>
         </section>
         <section class="Image">
@@ -32,3 +32,21 @@
         </section>
     </body>
 </html>
+<script>
+    
+function Github() {
+    window.open("https://github.com/HOPPhugo", "_blank")
+}
+function EditedPhotos() {
+    window.open("/EditPhotos.html", "_parent")
+}
+function Accueil() {
+    window.open("/index.html", "_parent")
+}
+function Dev() {
+    window.open("/DevGames.html", "_parent")
+}
+function Way() {
+    window.open("/MyWay.html", "_parent")
+}
+</script>
