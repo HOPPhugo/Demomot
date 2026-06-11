@@ -12,13 +12,9 @@ body {
     flex-direction: column;
     align-items: center;
 }
-html::selection {
-color: #0076b6;
-background-color: rgb(255, 255, 255);
-}
 .NavbarC {
     position: fixed;
-    margin-top: 90vh;
+    bottom: 0;
     display: flex;
     gap: 1rem;
     align-items: center;
@@ -53,13 +49,25 @@ h2 {
     border-radius: 100px;    
     border:dotted rgb(253, 230, 23);
     padding: 30px;
-    width: 65rem;
+    width: 70%;
+    margin-bottom: 4rem;
+}
+@media (max-width:1036px) {
+    img, video {
+    width: 15px;
+    height: 5px;
+    }
+}
+@media (max-width:617px) {
+    .GameSection p, ul, li {
+        font-size: 20px;
+    }
 }
 img, video {
     border-radius: 30px;
     transition: 1s;
-    width: 25rem;
-    height: 15rem;
+    width: 50%;
+    height: 20vw;
 }
 img:hover, video:hover{
     margin-top: 2rem;
@@ -105,4 +113,46 @@ img:hover, video:hover{
 }
 #Space {
     height: 200px;
+}
+.LateralNav {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #0076b660;
+    position: fixed;
+    left: 0;
+    margin-top: 25vh;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    scroll-behavior: smooth;
+}
+.LateralNav div {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    transition: 0.5s;
+}
+.LateralNav :hover{
+    color: #3da3dadc;
+    transition: 1s;
+}
+.Small:hover {
+    font-size: 20px;
+    color: #3da3dadc;
+    transition: none;
+}
+.LateralNav :not(:hover) {
+    transition: 1s;
+}
+.Small:not(:hover) {
+    font-size: 20px;
+    visibility: hidden;
+    height: 0px;
+    color: #0076b6fb;
+    transition: 0s;
+}
+.LateralNav div:hover a {
+    visibility: visible;
+    height: fit-content;
 }

@@ -22,7 +22,7 @@ align-items: center;
 }
 img {
     margin-top: 1rem;
-    width: 15%;
+    width: 10rem;
     border : rgba(0, 120, 184, 0);
     border-radius: 100%;
     transition: 0.75s;
@@ -33,4 +33,9 @@ img:hover {
     border: 2.5px solid #f1ee3f;
     box-shadow: 0px 0px 50px #e1f722;
     margin-top: 4rem;
+}
+img:active {
+    transition: 0.5s;
+    rotate: 90deg;
+    rotate: 360deg;
 }

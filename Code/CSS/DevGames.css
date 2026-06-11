@@ -37,7 +37,7 @@ p, h3 {
     transform: scale(1.5);
     background-color: #16b6aebd;
     color: #ffffff;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     transition: 1s;
     z-index: 1;
     cursor: pointer;
@@ -72,4 +72,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+@media (max-width:1036px) {
+    .GamesSection {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .GamesSection article h2{
+        font-size: 20px;
+    }
 }
