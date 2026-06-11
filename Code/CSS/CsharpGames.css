@@ -75,7 +75,7 @@ img:hover, video:hover{
     transform: scale(1.2);
     transition: 1s;
 }
-#Spoil, #SpoilVid {
+.Spoil, #SpoilVid {
     background-image: url(../Images/Anti_spoiler.avif);
     background-position: center;
     background-size: contain;
@@ -85,7 +85,7 @@ img:hover, video:hover{
     border-radius: 15px;
     padding: 10px;
 }
-#Spoil:hover, #SpoilVid:hover {
+.Spoil:hover, #SpoilVid:hover {
     color: 	#0077b6;
     transition: 1s;
     border:solid #e1f722;
@@ -94,11 +94,11 @@ img:hover, video:hover{
     box-shadow: none;
     
 }
-#Spoil::selection, #SpoilVid::selection {
+.Spoil::selection, #SpoilVid::selection {
     background-color: #e1f722;
     color: black;
 }
-#Spoil:not(:hover)::selection, #SpoilVid:not(:hover)::selection {
+.Spoil:not(:hover)::selection, #SpoilVid:not(:hover)::selection {
     box-shadow: 0px 0px 50px #e1f722;    
     background-color: #e2f72200;
     color: rgba(0, 0, 0, 0);
@@ -126,6 +126,10 @@ img:hover, video:hover{
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     scroll-behavior: smooth;
+}
+Img:active {
+    rotate: 360deg;
+    transition: 0.5s;
 }
 .LateralNav div {
     display: flex;

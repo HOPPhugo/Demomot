@@ -33,7 +33,7 @@ p, h3 {
     transition: 1s;
     height: fit-contents;
 }
-.GamesSection article:hover {
+.GamesSection section:hover {
     transform: scale(1.5);
     background-color: #16b6aebd;
     color: #ffffff;
@@ -49,7 +49,7 @@ p, h3 {
 .HtmlCss:hover {
     margin-left: 4rem;
 }
-.GamesSection article {
+.GamesSection section {
     border: 2px solid #ffffff;
     border-radius: 30px;
     padding-right: 1rem;
@@ -78,7 +78,7 @@ body {
         flex-wrap: wrap;
         justify-content: center;
     }
-    .GamesSection article h2{
+    .GamesSection section h2{
         font-size: 20px;
     }
 }

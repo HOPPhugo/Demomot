@@ -9,52 +9,63 @@
     </head>
     <body>
         <h1 id="title">Mastered langages</h1>
-       <section class="GamesSection">
-           <article  class="Csharp" onclick="CSharpClick()">
+       <div class="GamesSection">
+           <section  class="Csharp" onclick="CSharpClick()">
                <h2>C# Games</h2>
                 <p id="numberC">10</p>
-            </article>
-            <article class="HtmlCss" onclick="HtmlClick()">
+            </section>
+            <section class="HtmlCss" onclick="HtmlClick()">
                 <h2>HTML/CSS Sites</h2>
                 <p id="numberH">2</p>
                 
-            </article>
+            </section>
                 
-        </section>
-        <section class="Navbar">
+        </div>
+        <footer>
+            <nav class="Navbar">
                 <div class="" onclick="Github()">
-                <a href="https://github.com/HOPPhugo" target="_blank">My GitHub</a></div>
+                    <a href="https://github.com/HOPPhugo" target="_blank">My GitHub</a>
+                </div>
+
                 <div class="" onclick="EditedPhotos()">
-                <a href="/EditPhotos.html">Edited Photos</a></div>
+                    <a href="/EditPhotos.html">Edited Photos</a>
+                </div>
+
                 <div class="" onclick="Accueil()">
-                <a href="/index.html">Accueil</a></div>
+                    <a href="/index.html">Accueil</a>
+                </div>
+
                 <div class="CurrentPage" onclick="Dev()">
-                <a href="/DevGames.html">Mastered langages</a></div>
+                    <a href="/DevGames.html">Mastered langages</a>
+                </div>
+
                 <div class="">
-                <a href="/MyWay.html" onclick="Way()">My way</a></div>
-        </section>
+                    <a href="/MyWay.html" onclick="Way()">My way</a>
+                </div>
+            </nav>
+        </footer>
+        <script>
+        function CSharpClick() {
+            window.open("/CSharpGames.html", "_parent");
+        }
+        function HtmlClick() {
+            window.open("/HtmlSites.html", "_parent");
+        }
+        function Github() {
+            window.open("https://github.com/HOPPhugo", "_blank")
+        }
+        function EditedPhotos() {
+            window.open("/EditPhotos.html", "_parent")
+        }
+        function Accueil() {
+            window.open("/index.html", "_parent")
+        }
+        function Dev() {
+            window.open("/DevGames.html", "_parent")
+        }
+        function Way() {
+            window.open("/MyWay.html", "_parent")
+        }
+        </script>
     </body>
 </html>
-<script>
-function CSharpClick() {
-    window.open("/CSharpGames.html", "_parent");
-}
-function HtmlClick() {
-    window.open("/HtmlSites.html", "_parent");
-}
-function Github() {
-    window.open("https://github.com/HOPPhugo", "_blank")
-}
-function EditedPhotos() {
-    window.open("/EditPhotos.html", "_parent")
-}
-function Accueil() {
-    window.open("/index.html", "_parent")
-}
-function Dev() {
-    window.open("/DevGames.html", "_parent")
-}
-function Way() {
-    window.open("/MyWay.html", "_parent")
-}
-</script>
