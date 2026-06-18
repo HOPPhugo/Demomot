@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/EditPhotos.css">
+        <link rel="stylesheet" href="CSS/globale.css">
+        <title>Edited photos</title>
+    </head>
+    <body>
+        <h1 id="title">Edited Photos</h1>
+        <p>In this page, you can see all my best Edited photos that I made.</p>
+        <section class="GameSection">
+            <h2 id="ArduinoUNO">Arduino UNO</h2>
+            <img src="./Images/ArduinoUNO.png" alt="An Arduino with UNO cards on it">
+            <p>The joke behind it, is just it's called "Arduino uno" and I added some UNO cards.</p>
+        </section>
+
+        <section class="GameSection">
+            <h2 id="Mouse">Kid sliding on a mouse</h2>
+            <img src="./Images/Souris.png" alt="A kid sliding on a mouse">
+            <p>some of the photo montage here were for activities image, and this one was for a scrolling activity.</p>
+        </section>
+
+        <section class="GameSection">
+            <h2 id="Course">Wikipedia coursing somebody</h2>
+            <img src="./Images/CourseWiki.png" alt="Wikipedia coursing somebody">
+            <p>This is an activity photo, for a wikirace.</p>
+        </section>
+
+        <section class="GameSection">
+            <h2 id="Jongles">A juggling ball that juggles with kids</h2>
+            <img src="./Images/Jongles.jpg" alt="A juggling ball that juggles with kids">
+            <p>Juste some imagination, it was too funny for me not to do it</p>
+        </section>
+
+        <section class="GameSection">
+            <h2 id="Nasa">Nπsa</h2>
+            <img src="./Images/NπSA.png" alt="Nasa logo but with the Pi logo">
+            <p>It was for a question, "How many π deciaml the Nasa uses for their calculs ?" : 15 decimals</p>
+        </section>
+
+        <section class="GameSection">
+            <h2 id="PouceEcran">Screen inches</h2>
+            <img src="./Images/PouceEcran.png" alt="Screen with a thumb in the middle">
+            <p>It was a joke about the inches of a screen, because in french we say "pouce" so I added a Thumb.</p>
+        </section>
+
+        <section class="GameSection">
+            <h2 id="Camera">Informatique zoom</h2>
+            <img src="./Images/Camera informatique.png" alt="A camera with a informatique reflection">
+            <p>it was for representating a question about photo and informatique at the same time.</p>
+        </section>
+
+        <section class="GameSection">
+            <h2 id="Logicielle">Photo montage programs</h2>
+            <img src="./Images/Logicielle photo_v2.png" alt="a representation of some photo montage program">
+            <p>it was for representating the most famous photo montage programs</p>
+        </section>
+
+
+        <div id="Space"></div>
+        
+        
+        
+        <nav class="LateralNav">
+            <div class="">
+                <a href="#ArduinoUNO">Arduino UNO</a>
+                <a href="#Mouse">Kid slide</a>
+                    <a href="#Course">Wiki Race</a>
+                    <a href="#Jongles">Juggling ball</a>
+                    <a href="#Nasa">Nπsa</a>
+                    <a href="#PouceEcran">Screen inches</a>
+                    <a href="#Camera">Informatique camera</a>
+                    <a href="#Logicielle">Informatique program</a>
+            </div>
+        </nav>
+        
+        <nav class="NavbarC">
+            <div class="" onClick="Github()">
+                <a href="https://github.com/HOPPhugo" target="_blank">My GitHub</a>
+            </div>
+
+            <div class="" onclick="EditedPhotos()">
+                <a href="/EditPhotos.html">Edited Photos</a>
+            </div>
+
+            <div class="" onclick="Accueil()">
+                <a href="/index.html">Accueil</a>
+            </div>
+
+            <div class="CurrentPage"  onclick="Dev()">
+                <a href="/DevGames.html">Mastered langages</a>
+                <p>Html sites</p>
+            </div>    
+                    
+            <div class="" onclick="Way()">
+                <a href="/MyWay.html">My way</a>
+            </div>
+        </nav>
+        <script>
+            function Github() {
+                window.open("https://github.com/HOPPhugo", "_blank")
+            }
+            function EditedPhotos() {
+                window.open("/EditPhotos.html", "_parent")
+            }
+            function Accueil() {
+                window.open("/index.html", "_parent")
+            }
+            function Dev() {
+                window.open("/DevGames.html", "_parent")
+            }
+            function Way() {
+                window.open("/MyWay.html", "_parent")
+            }
+        </script>
+    </body>
+</html>
